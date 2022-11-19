@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="18.0.2" class="java.beans.XMLDecoder">
+ <object class="by.saxophonyx.entities.Kettle">
+  <void property="capacity">
+   <int>40</int>
+  </void>
+  <void property="depth">
+   <int>50</int>
+  </void>
+  <void property="height">
+   <double>60.0</double>
+  </void>
+  <void property="name">
+   <string>kettle_1</string>
+  </void>
+  <void property="powerConsumption">
+   <int>20</int>
+  </void>
+  <void property="price">
+   <double>100.0</double>
+  </void>
+  <void property="weight">
+   <double>30.0</double>
+  </void>
+  <void property="width">
+   <double>70.0</double>
+  </void>
+ </object>
+ <object class="by.saxophonyx.entities.Kettle">
+  <void property="capacity">
+   <int>30</int>
+  </void>
+  <void property="depth">
+   <int>40</int>
+  </void>
+  <void property="height">
+   <double>50.0</double>
+  </void>
+  <void property="name">
+   <string>kettle_2</string>
+  </void>
+  <void property="powerConsumption">
+   <int>10</int>
+  </void>
+  <void property="price">
+   <double>90.0</double>
+  </void>
+  <void property="weight">
+   <double>20.0</double>
+  </void>
+  <void property="width">
+   <double>60.0</double>
+  </void>
+ </object>
+ <object class="by.saxophonyx.entities.Laptop">
+  <void property="OS">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>by.saxophonyx.entities.components.OperatingSystem</class>
+    <string>Linux</string>
+   </object>
+  </void>
+  <void property="batteryCapacity">
+   <double>20.0</double>
+  </void>
+  <void property="cpu">
+   <double>60.0</double>
+  </void>
+  <void property="displayInches">
+   <int>70</int>
+  </void>
+  <void property="memoryRom">
+   <int>40</int>
+  </void>
+  <void property="name">
+   <string>laptop_1</string>
+  </void>
+  <void property="price">
+   <double>70.0</double>
+  </void>
+  <void property="systemMemory">
+   <int>50</int>
+  </void>
+ </object>
+ <object class="by.saxophonyx.entities.Laptop">
+  <void property="OS">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>by.saxophonyx.entities.components.OperatingSystem</class>
+    <string>Windows</string>
+   </object>
+  </void>
+  <void property="batteryCapacity">
+   <double>20.0</double>
+  </void>
+  <void property="cpu">
+   <double>60.0</double>
+  </void>
+  <void property="displayInches">
+   <int>90</int>
+  </void>
+  <void property="memoryRom">
+   <int>40</int>
+  </void>
+  <void property="name">
+   <string>laptop_2</string>
+  </void>
+  <void property="price">
+   <double>120.0</double>
+  </void>
+  <void property="systemMemory">
+   <int>50</int>
+  </void>
+ </object>
+ <object class="by.saxophonyx.entities.Refrigerator">
+  <void property="freezerCapacity">
+   <int>20</int>
+  </void>
+  <void property="height">
+   <double>40.0</double>
+  </void>
+  <void property="name">
+   <string>fridge_1</string>
+  </void>
+  <void property="overallCapacity">
+   <double>30.0</double>
+  </void>
+  <void property="powerConsumption">
+   <int>50</int>
+  </void>
+  <void property="price">
+   <double>80.0</double>
+  </void>
+  <void property="weight">
+   <double>40.0</double>
+  </void>
+  <void property="width">
+   <double>50.0</double>
+  </void>
+ </object>
+ <object class="by.saxophonyx.entities.Refrigerator">
+  <void property="freezerCapacity">
+   <int>20</int>
+  </void>
+  <void property="height">
+   <double>40.0</double>
+  </void>
+  <void property="name">
+   <string>fridge_2</string>
+  </void>
+  <void property="overallCapacity">
+   <double>30.0</double>
+  </void>
+  <void property="powerConsumption">
+   <int>50</int>
+  </void>
+  <void property="price">
+   <double>70.0</double>
+  </void>
+  <void property="weight">
+   <double>40.0</double>
+  </void>
+  <void property="width">
+   <double>50.0</double>
+  </void>
+ </object>
+ <object class="by.saxophonyx.entities.Speakers">
+  <void property="cordLength">
+   <double>10.0</double>
+  </void>
+  <void property="frequencyRangeMax">
+   <double>20.0</double>
+  </void>
+  <void property="frequencyRangeMin">
+   <double>30.0</double>
+  </void>
+  <void property="name">
+   <string>speakers_1</string>
+  </void>
+  <void property="numberOfSpeakers">
+   <int>30</int>
+  </void>
+  <void property="powerConsumption">
+   <int>50</int>
+  </void>
+  <void property="price">
+   <double>70.0</double>
+  </void>
+ </object>
+ <object class="by.saxophonyx.entities.TabletPC">
+  <void property="batteryCapacity">
+   <int>30</int>
+  </void>
+  <void property="color">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>by.saxophonyx.entities.components.Color</class>
+    <string>Black</string>
+   </object>
+  </void>
+  <void property="displayInches">
+   <int>40</int>
+  </void>
+  <void property="flashMemoryCapacity">
+   <int>20</int>
+  </void>
+  <void property="memoryRom">
+   <int>50</int>
+  </void>
+  <void property="name">
+   <string>pc_1</string>
+  </void>
+  <void property="price">
+   <double>70.0</double>
+  </void>
+ </object>
+ <object class="by.saxophonyx.entities.VacuumCleaner">
+  <void property="bagType">
+   <string>bag_type_1</string>
+  </void>
+  <void property="cleaningWidth">
+   <int>3</int>
+  </void>
+  <void property="filterType">
+   <string>filter_1</string>
+  </void>
+  <void property="motorSpeedRegulation">
+   <int>20</int>
+  </void>
+  <void property="name">
+   <string>cleaner_1</string>
+  </void>
+  <void property="powerConsumption">
+   <int>20</int>
+  </void>
+  <void property="price">
+   <double>90.0</double>
+  </void>
+  <void property="wandType">
+   <string>wand_type_1</string>
+  </void>
+ </object>
+</java>
